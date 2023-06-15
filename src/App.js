@@ -8,6 +8,7 @@ import UserGreeting from './components/UserGreeting';
 import Welcome from './components/Welcome';
 import PrentComponet from './components/PrentComponet';
 import Foms from './components/Foms';
+import Refs from './components/Refs';
 // require
 
 function App() {
@@ -28,7 +29,8 @@ function App() {
        {/* <UserGreeting/> */}
        {/* <NameList/> */}
        {/* <PrentComponet/> */}
-       <Foms></Foms>
+       {/* <Foms></Foms> */}
+       <Refs></Refs>
       </header>
     </div>
   );

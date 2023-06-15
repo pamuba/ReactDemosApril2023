@@ -30,3 +30,7 @@ Error Handling
 
 Forms + Controlled Components
 Refs
+
+Errors in components -> we need a fallback UI-> created using Error Boundaries
+Error Boundaries = component that implemets(1. getDerivedStateFromError
+2. componentDidCatch )
