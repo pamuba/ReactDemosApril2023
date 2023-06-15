@@ -9,6 +9,8 @@ import Welcome from './components/Welcome';
 import PrentComponet from './components/PrentComponet';
 import Foms from './components/Foms';
 import Refs from './components/Refs';
+import Hero from './components/Hero';
+import ErrorBoundary from './components/ErrorBoundary';
 // require
 
 function App() {
@@ -30,7 +32,16 @@ function App() {
        {/* <NameList/> */}
        {/* <PrentComponet/> */}
        {/* <Foms></Foms> */}
-       <Refs></Refs>
+       {/* <Refs></Refs> */}
+      <ErrorBoundary>
+        <Hero heroName="Batman"></Hero>
+      </ErrorBoundary>
+      <ErrorBoundary>
+        <Hero heroName="Spiderman"></Hero>
+      </ErrorBoundary>
+      <ErrorBoundary>
+        <Hero heroName="Joker"></Hero>
+      </ErrorBoundary>
       </header>
     </div>
   );
