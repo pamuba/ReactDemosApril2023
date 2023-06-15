@@ -7,6 +7,7 @@ import ParentComponent from './components/ParentComponent';
 import UserGreeting from './components/UserGreeting';
 import Welcome from './components/Welcome';
 import PrentComponet from './components/PrentComponet';
+import Foms from './components/Foms';
 // require
 
 function App() {
@@ -26,7 +27,8 @@ function App() {
        {/* <ParentComponent/> */}
        {/* <UserGreeting/> */}
        {/* <NameList/> */}
-       <PrentComponet/>
+       {/* <PrentComponet/> */}
+       <Foms></Foms>
       </header>
     </div>
   );
