@@ -14,6 +14,7 @@ import ErrorBoundary from './components/ErrorBoundary';
 import ClickCounter from './components/ClickCounter';
 import HoverCounter from './components/HoverCounter';
 import PostList from './components/PostList';
+import HooksCounter from './hooksComponents/HooksCounter';
 // require
 
 function App() {
@@ -47,7 +48,8 @@ function App() {
       </ErrorBoundary> */}
       {/* <ClickCounter/>
       <HoverCounter/> */}
-      <PostList/>
+      {/* <PostList/> */}
+      <HooksCounter/>
       </header>
     </div>
   );

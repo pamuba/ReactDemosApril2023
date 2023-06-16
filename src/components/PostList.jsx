@@ -18,8 +18,19 @@ export class PostList extends Component {
      .catch(error=>console.log(error))
   }
   render() {
+    const {posts} = this.state
     return (
-      <div>PostList</div>
+      <div>
+        <h1>Posts</h1>
+        <input type="text" />
+                 
+                  {
+                    posts.length ?
+                    posts.map(post =><div key={post.id}>{post.title}</div>
+                    ): null
+                  }
+                
+      </div>
     )
   }
 }
