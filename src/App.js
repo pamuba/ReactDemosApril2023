@@ -11,6 +11,9 @@ import Foms from './components/Foms';
 import Refs from './components/Refs';
 import Hero from './components/Hero';
 import ErrorBoundary from './components/ErrorBoundary';
+import ClickCounter from './components/ClickCounter';
+import HoverCounter from './components/HoverCounter';
+import PostList from './components/PostList';
 // require
 
 function App() {
@@ -33,7 +36,7 @@ function App() {
        {/* <PrentComponet/> */}
        {/* <Foms></Foms> */}
        {/* <Refs></Refs> */}
-      <ErrorBoundary>
+      {/* <ErrorBoundary>
         <Hero heroName="Batman"></Hero>
       </ErrorBoundary>
       <ErrorBoundary>
@@ -41,7 +44,10 @@ function App() {
       </ErrorBoundary>
       <ErrorBoundary>
         <Hero heroName="Joker"></Hero>
-      </ErrorBoundary>
+      </ErrorBoundary> */}
+      {/* <ClickCounter/>
+      <HoverCounter/> */}
+      <PostList/>
       </header>
     </div>
   );

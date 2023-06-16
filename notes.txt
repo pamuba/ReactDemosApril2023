@@ -34,3 +34,14 @@ Refs
 Errors in components -> we need a fallback UI-> created using Error Boundaries
 Error Boundaries = component that implemets(1. getDerivedStateFromError
 2. componentDidCatch )
+
+
+Hooks componentWillUnmount
+Redux
+Mongodb
+
+HOC
+Parent Component <- Child Component
+
+HOC(Child Component) -> Modified Component
+
