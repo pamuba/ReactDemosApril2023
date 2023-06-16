@@ -36,7 +36,7 @@ Error Boundaries = component that implemets(1. getDerivedStateFromError
 2. componentDidCatch )
 
 
-Hooks componentWillUnmount
+Hooks useReducer
 Redux
 Mongodb
 
@@ -45,3 +45,7 @@ Parent Component <- Child Component
 
 HOC(Child Component) -> Modified Component
 
+useEffect
+1. componentDidMount
+2. componentDidUpdate
+3. componentWillUnmount
