@@ -15,6 +15,7 @@ import ClickCounter from './components/ClickCounter';
 import HoverCounter from './components/HoverCounter';
 import PostList from './components/PostList';
 import HooksCounter from './hooksComponents/HooksCounter';
+import HooksCounterOne from './hooksComponents/HooksCounterOne';
 // require
 
 function App() {
@@ -49,7 +50,8 @@ function App() {
       {/* <ClickCounter/>
       <HoverCounter/> */}
       {/* <PostList/> */}
-      <HooksCounter/>
+      {/* <HooksCounter/> */}
+      <HooksCounterOne/>
       </header>
     </div>
   );
