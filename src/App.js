@@ -16,6 +16,9 @@ import HoverCounter from './components/HoverCounter';
 import PostList from './components/PostList';
 import HooksCounter from './hooksComponents/HooksCounter';
 import HooksCounterOne from './hooksComponents/HooksCounterOne';
+import HookCounterOne from './hooksComponents/HookCounterOne';
+import HookMouse from './hooksComponents/HookMouse';
+import MouseContainer from './hooksComponents/MouseContainer';
 // require
 
 function App() {
@@ -51,7 +54,10 @@ function App() {
       <HoverCounter/> */}
       {/* <PostList/> */}
       {/* <HooksCounter/> */}
-      <HooksCounterOne/>
+      {/* <HooksCounterOne/> */}
+      {/* <HookCounterOne/> */}
+      {/* <HookMouse/> */}
+      <MouseContainer/>
       </header>
     </div>
   );
