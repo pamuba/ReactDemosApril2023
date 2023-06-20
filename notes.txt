@@ -37,6 +37,7 @@ Error Boundaries = component that implemets(1. getDerivedStateFromError
 
 
 Hooks useReducer
+useCallback
 Redux
 Mongodb
 

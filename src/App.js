@@ -3,7 +3,7 @@ import Counter from './components/Counter';
 import Greet from './components/Greet';
 import Message from './components/Message';
 import NameList from './components/NameList';
-import ParentComponent from './components/ParentComponent';
+// import ParentComponent from './components/ParentComponent';
 import UserGreeting from './components/UserGreeting';
 import Welcome from './components/Welcome';
 import PrentComponet from './components/PrentComponet';
@@ -19,6 +19,7 @@ import HooksCounterOne from './hooksComponents/HooksCounterOne';
 import HookCounterOne from './hooksComponents/HookCounterOne';
 import HookMouse from './hooksComponents/HookMouse';
 import MouseContainer from './hooksComponents/MouseContainer';
+import ParentComponent from './hooksComponents/ParentComponent';
 // require
 
 function App() {
@@ -57,7 +58,8 @@ function App() {
       {/* <HooksCounterOne/> */}
       {/* <HookCounterOne/> */}
       {/* <HookMouse/> */}
-      <MouseContainer/>
+      {/* <MouseContainer/> */}
+      <ParentComponent/>
       </header>
     </div>
   );
