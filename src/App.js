@@ -1,5 +1,5 @@
 import './App.css';
-import Counter from './components/Counter';
+import Counter from './hooksComponents/Counter';
 import Greet from './components/Greet';
 import Message from './components/Message';
 import NameList from './components/NameList';
@@ -59,7 +59,8 @@ function App() {
       {/* <HookCounterOne/> */}
       {/* <HookMouse/> */}
       {/* <MouseContainer/> */}
-      <ParentComponent/>
+      {/* <ParentComponent/> */}
+      <Counter />
       </header>
     </div>
   );
